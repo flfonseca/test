@@ -1,6 +1,3 @@
-<style lang="scss">
-@import "../../assets/styles/mixins.scss";
-
 video {
   position: absolute;
   top: 0;
@@ -103,4 +100,3 @@ video {
 .bmpui-ui-hugereplaybutton .bmpui-image {
   background-image: url("/src/assets/playtv/icons/player-repeat.svg");
 }
-</style>
