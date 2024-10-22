@@ -1,0 +1,106 @@
+<style lang="scss">
+@import "../../assets/styles/mixins.scss";
+
+video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#bitmovin-player {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  border-radius: 0;
+  overflow: hidden;
+}
+
+@include breakpoint(small) {
+  #bitmovin-player {
+    border-radius: 14px;
+  }
+}
+
+.bitmovinplayer-container .bmpui-ui-watermark,
+.bitmovinplayer-container .bmpui-ui-loading-overlay {
+  display: none; /* Hide watermark and loading overlay for a cleaner look */
+}
+
+.bitmovinplayer-container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.bitmovinplayer-container .bmpui-controlbar {
+  background-color: rgba(0, 0, 0, 0.8);
+  border-top: 1px solid #333;
+}
+
+.bitmovinplayer-container
+  .bmpui-controlbar
+  .bmpui-button-pane
+  .bmpui-controlbar-button {
+  color: #fff;
+}
+
+.bitmovinplayer-container .bmpui-controlbar .bmpui-seekbar {
+  background-color: #444;
+}
+
+.bitmovinplayer-container
+  .bmpui-controlbar
+  .bmpui-seekbar
+  .bmpui-seekbar-playback {
+  background-color: red;
+}
+
+.bitmovinplayer-container .bmpui-controlbar .bmpui-time-label {
+  color: #fff;
+}
+
+.bitmovinplayer-container
+  .bmpui-controlbar
+  .bmpui-button-pane
+  .bmpui-playbacktogglebutton,
+.bitmovinplayer-container
+  .bmpui-controlbar
+  .bmpui-button-pane
+  .bmpui-fullscreenbutton,
+.bitmovinplayer-container
+  .bmpui-controlbar
+  .bmpui-button-pane
+  .bmpui-volumebutton {
+  background-color: transparent;
+  border: none;
+}
+
+.bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-playbackposition-marker {
+  background-color: #fff;
+}
+
+.bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-playbackposition,
+.bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-playbackposition {
+  background-color: red;
+}
+
+.bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-playbackposition-marker {
+  background-color: red;
+  border-color: red;
+}
+
+.bmpui-ui-titlebar > .bmpui-container-wrapper .bmpui-label-metadata-title {
+  display: none;
+}
+
+.bmpui-ui-hugereplaybutton .bmpui-image {
+  background-image: url("/src/assets/playtv/icons/player-repeat.svg");
+}
+</style>
