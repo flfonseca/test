@@ -110,6 +110,25 @@
 .bmpui-player-state-playing .bmpui-ui-controlbar {
   display: none;
 }
+.bmpui-player-state-playing .bmpui-ui-volumetogglebutton{
+	display: none;
+}
+.bmpui-player-state-paused .bmpui-ui-volumetogglebutton{
+	display: block;
+}
+.bmpui-player-state-playing .bmpui-ui-settingstogglebutton{
+	display: none;
+}
+.bmpui-player-state-paused .bmpui-ui-settingstogglebutton{
+	display: block;
+}
+.bmpui-player-state-playing .bmpui-ui-fullscreentogglebutton{
+	display: none;
+}
+.bmpui-player-state-paused .bmpui-ui-fullscreentogglebutton{
+	display: block;
+}
+/* Loader */
 .bmpui-ui-buffering-overlay .bmpui-ui-buffering-overlay-indicator {
 	animation: bmpui-fancy 2s ease-in infinite;
 	background: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' style='enable-background:new 0 0 32 32' xml:space='preserve'%3E%3Cstyle%3E.st1{fill-rule:evenodd;clip-rule:evenodd;fill:%23e50038}%3C/style%3E%3Cpath class='st1' d='M8 8h16v16H8z' id='Rectangle_3_copy_3' style='opacity:.302'/%3E%3Cpath class='st1' d='M23 7H9c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V9c0-1.1-.9-2-2-2zm0 16H9V9h14v14z' id='Rectangle_2_copy_13'/%3E%3C/svg%3E") no-repeat 50%;
