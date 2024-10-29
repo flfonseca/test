@@ -104,11 +104,7 @@
 .bmpui-ui-hugeplaybacktogglebutton.bmpui-on .bmpui-image {
   animation: none;
 }
-.bmpui-ui-container .bmpui-controlbar-top {
-  display: none;
-}
-
-.bmpui-ui-controlbar .bmpui-controlbar-bottom{
+.bmpui-ui-controlbar {
   display: none;
 }
 
