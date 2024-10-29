@@ -110,24 +110,56 @@
 .bmpui-player-state-playing .bmpui-ui-controlbar {
   display: none;
 }
+
 .bmpui-player-state-playing .bmpui-ui-volumetogglebutton{
 	display: none;
 }
 .bmpui-player-state-paused .bmpui-ui-volumetogglebutton{
 	display: block;
 }
+
 .bmpui-player-state-playing .bmpui-ui-settingstogglebutton{
 	display: none;
 }
 .bmpui-player-state-paused .bmpui-ui-settingstogglebutton{
 	display: block;
 }
+
 .bmpui-player-state-playing .bmpui-ui-fullscreentogglebutton{
 	display: none;
 }
 .bmpui-player-state-paused .bmpui-ui-fullscreentogglebutton{
 	display: block;
 }
+
+.bmpui-player-state-playing .bmpui-ui-airplaytogglebutton{
+	display: none;
+}
+.bmpui-player-state-paused .bmpui-ui-airplaytogglebutton{
+	display: block;
+}
+
+.bmpui-player-state-playing .bmpui-ui-piptogglebutton{
+	display: none;
+}
+.bmpui-player-state-paused .bmpui-ui-piptogglebutton{
+	display: block;
+}
+
+.bmpui-player-state-playing .bmpui-ui-casttogglebutton{
+	display: none;
+}
+.bmpui-player-state-paused .bmpui-ui-casttogglebutton{
+	display: block;
+}
+
+.bmpui-player-state-playing .bmpui-ui-fullscreentogglebutton{
+	display: none;
+}
+.bmpui-player-state-paused .bmpui-ui-fullscreentogglebutton{
+	display: block;
+}
+
 /* Loader */
 .bmpui-ui-buffering-overlay .bmpui-ui-buffering-overlay-indicator {
 	animation: bmpui-fancy 2s ease-in infinite;
@@ -137,10 +169,3 @@
 	margin: .2em;
 	width: 2em
 }
-
-/*
-.bmpui-container-wrapper {
-  display: none;
-}
-*/
-
