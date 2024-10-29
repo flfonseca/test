@@ -105,9 +105,9 @@
   animation: none;
 }
 .bmpui-ui-container bmpui-controlbar-top {
-  animation: none;
+  display: none;
 }
 .bmpui-ui-container bmpui-controlbar-bottom {
-  animation: none;
+  display: none;
 }
 
