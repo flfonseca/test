@@ -107,4 +107,7 @@
 .bmpui-ui-controlbar {
   display: none;
 }
+.bmpui-container-wrapper {
+  display: none;
+}
 
