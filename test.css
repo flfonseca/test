@@ -104,9 +104,13 @@
 .bmpui-ui-hugeplaybacktogglebutton.bmpui-on .bmpui-image {
   animation: none;
 }
-.bmpui-ui-controlbar {
+.bmpui-player-state-paused .bmpui-ui-controlbar {
+  display: block;
+}
+.bmpui-player-state-playing .bmpui-ui-controlbar {
   display: none;
 }
+
 /*
 .bmpui-container-wrapper {
   display: none;
