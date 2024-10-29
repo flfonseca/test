@@ -100,11 +100,19 @@
     background-image: url("https://cgfybgvylwfwcao-app.nyc3.cdn.digitaloceanspaces.com/static-assets/playtv/player-repeat.svg");
 }
 
+.bmpui-ui-controlbar {
+  display: none;
+}
+
 .bmpui-player-state-paused .bmpui-ui-controlbar {
   display: block;
 }
 
 .bmpui-player-state-playing .bmpui-ui-controlbar {
+  display: none;
+}
+
+.bmpui-ui-titlebar {
   display: none;
 }
 
