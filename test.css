@@ -111,6 +111,14 @@
   display: none;
 }
 
+.bmpui-player-state-paused .bmpui-ui-titlebar {
+  display: block;
+}
+.bmpui-player-state-playing .bmpui-ui-titlebar {
+  display: none;
+}
+
+/*
 .bmpui-player-state-playing .bmpui-ui-volumetogglebutton{
 	display: none;
 }
@@ -159,7 +167,7 @@
 .bmpui-player-state-paused .bmpui-ui-fullscreentogglebutton{
 	display: block;
 }
-
+*/
 /* Loader */
 .bmpui-ui-buffering-overlay .bmpui-ui-buffering-overlay-indicator {
 	animation: bmpui-fancy 2s ease-in infinite;
