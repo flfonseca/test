@@ -134,9 +134,24 @@
 }
 
 /* Play icon*/
-.bmpui-ui-playbacktogglebutton {
-	background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20width%3D'80'%20height%3D'80'%20viewBox%3D'0%200%2080%2080'%20fill%3D'none'%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%3E%3Cg%20filter%3D'url(%23filter0_b_11780_91184)'%3E%3Crect%20width%3D'80'%20height%3D'80'%20rx%3D'40'%20fill%3D'black'%20fill-opacity%3D'0.5'/%3E%3Cpath%20d%3D'M54%2040C54.0008%2040.3395%2053.9138%2040.6735%2053.7473%2040.9694C53.5808%2041.2654%2053.3406%2041.5132%2053.05%2041.6888L35.04%2052.7063C34.7364%2052.8922%2034.3886%2052.9937%2034.0326%2053.0003C33.6766%2053.0069%2033.3253%2052.9183%2033.015%2052.7438C32.7076%2052.5719%2032.4516%2052.3213%2032.2732%2052.0177C32.0948%2051.7141%2032.0005%2051.3684%2032%2051.0163V28.9838C32.0005%2028.6316%2032.0948%2028.286%2032.2732%2027.9824C32.4516%2027.6787%2032.7076%2027.4281%2033.015%2027.2563C33.3253%2027.0817%2033.6766%2026.9931%2034.0326%2026.9997C34.3886%2027.0063%2034.7364%2027.1078%2035.04%2027.2938L53.05%2038.3113C53.3406%2038.4869%2053.5808%2038.7347%2053.7473%2039.0306C53.9138%2039.3265%2054.0008%2039.6605%2054%2040Z'%20fill%3D'white'/%3E%3C/g%3E%3Cdefs%3E%3Cfilter%20id%3D'filter0_b_11780_91184'%20x%3D'-24'%20y%3D'-24'%20width%3D'128'%20height%3D'128'%20filterUnits%3D'userSpaceOnUse'%20color-interpolation-filters%3D'sRGB'%3E%3CfeFlood%20flood-opacity%3D'0'%20result%3D'BackgroundImageFix'/%3E%3CfeGaussianBlur%20in%3D'BackgroundImageFix'%20stdDeviation%3D'12'/%3E%3CfeComposite%20in2%3D'SourceAlpha'%20operator%3D'in'%20result%3D'effect1_backgroundBlur_11780_91184'/%3E%3CfeBlend%20mode%3D'normal'%20in%3D'SourceGraphic'%20in2%3D'effect1_backgroundBlur_11780_91184'%20result%3D'shape'/%3E%3C/filter%3E%3C/defs%3E%3C/svg%3E");
+.bmpui-ui-playbacktogglebutton {    
+    /* background-image: url("https://flfonseca.github.io/test/play.svg"); */
+    background-image: url("https://flfonseca.github.io/test/bmpui-ui-playbacktogglebutton.svg");
 }
+
+.bmpui-ui-playbacktogglebutton.bmpui-on {
+    
+    background-image: url("https://flfonseca.github.io/test/bmpui-ui-playbacktogglebutton.bmpui-on.svg");
+    /* background-image: url("https://flfonseca.github.io/test/play.svg"); */
+    /* background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' style='enable-background:new 0 0 32 32' xml:space='preserve'%3E%3Cstyle%3E.st0{fill:%23fff}%3C/style%3E%3Cpath class='st0' d='M11.3 5.4H8.9c-1.3 0-2.4 1.1-2.4 2.4v16.5c0 1.3 1.1 2.4 2.4 2.4h2.4c1.3 0 2.4-1.1 2.4-2.4V7.7c-.1-1.3-1.1-2.3-2.4-2.3zm0 18.9H8.9V7.7h2.4v16.6z' id='Rectangle_2_copy'/%3E%3Cpath class='st0' d='M23.1 5.4h-2.4c-1.3 0-2.4 1.1-2.4 2.4v16.5c0 1.3 1.1 2.4 2.4 2.4h2.4c1.3 0 2.4-1.1 2.4-2.4V7.7c-.1-1.3-1.1-2.3-2.4-2.3zm0 18.9h-2.4V7.7h2.4v16.6z' id='Rectangle_2_copy_2'/%3E%3C/svg%3E") */
+}
+
+.bmpui-ui-playbacktogglebutton.bmpui-on.bmpui-stoptoggle {
+	background-image: url("https://flfonseca.github.io/test/bmpui-ui-playbacktogglebutton.bmpui-on.bmpui-stoptoggle");
+    /* background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' style='enable-background:new 0 0 32 32' xml:space='preserve'%3E%3Cpath d='M24.3 5.4H7.7c-1.3 0-2.4 1.1-2.4 2.4v16.5c0 1.3 1.1 2.4 2.4 2.4h16.5c1.3 0 2.4-1.1 2.4-2.4V7.7c0-1.3-1-2.3-2.3-2.3zm0 18.9H7.7V7.7h16.5v16.6z' style='fill:%23fff'/%3E%3C/svg%3E") */
+}
+
+
 .bmpui-player-state-paused .bmpui-ui-playbacktogglebutton {
 	display: block;
 }
