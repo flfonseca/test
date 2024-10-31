@@ -55,7 +55,7 @@
 .bmpui-controlbar
 .bmpui-seekbar
 .bmpui-seekbar-playback {
-    background-color: red;
+    background-color: #e50038;
 }
 
 .bitmovinplayer-container .bmpui-controlbar .bmpui-time-label {
@@ -84,12 +84,12 @@
 
 .bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-playbackposition,
 .bmpui-ui-volumeslider .bmpui-seekbar .bmpui-seekbar-playbackposition {
-    background-color: red;
+    background-color: #e50038;
 }
 
 .bmpui-ui-seekbar .bmpui-seekbar .bmpui-seekbar-playbackposition-marker {
-    background-color: red;
-    border-color: red;
+    background-color: #e50038;
+    border-color: #e50038;
 }
 
 .bmpui-ui-titlebar > .bmpui-container-wrapper .bmpui-label-metadata-title {
