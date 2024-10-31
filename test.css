@@ -100,10 +100,9 @@
     background-image: url("https://cgfybgvylwfwcao-app.nyc3.cdn.digitaloceanspaces.com/static-assets/playtv/player-repeat.svg");
 }
 
-.bmpui-ui-controlbar {
-  /* display: none; */
-  animation: none;
-}
+/* .bmpui-ui-controlbar {
+  display: none;
+} */
 
 .bmpui-player-state-paused .bmpui-ui-controlbar {
   display: block;
@@ -115,8 +114,7 @@
 }
 
 .bmpui-ui-titlebar {
-  /* display: none; */
-  animation: none;
+  display: none;
 }
 
 .bmpui-player-state-paused .bmpui-ui-titlebar {
@@ -124,8 +122,7 @@
 }
 
 .bmpui-player-state-playing .bmpui-ui-titlebar {
-  /* display: none; */
-  animation: none;
+  display: none;
 }
 
 .bmpui-ui-buffering-overlay .bmpui-ui-buffering-overlay-indicator {
