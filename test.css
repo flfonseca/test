@@ -107,12 +107,12 @@
 
 /* SeekBar Paused */
 .bmpui-player-state-paused .bmpui-ui-controlbar {
-  display: block;
+    opacity: 1;
 }
 
 /* SeekBar Playing */
 .bmpui-player-state-playing .bmpui-ui-controlbar {
-  opacity: 0;
+    opacity: 0;
 }
 
 .bmpui-ui-titlebar {
