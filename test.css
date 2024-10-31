@@ -136,12 +136,12 @@
 /* Play icon*/
 .bmpui-ui-playbacktogglebutton {    
     /* background-image: url("https://flfonseca.github.io/test/play.svg"); */
-    background-image: url("https://flfonseca.github.io/test/bmpui-ui-playbacktogglebutton.svg");
+    background-image: url("https://flfonseca.github.io/test/play.svg");
 }
 
 /* Play icon*/
 .bmpui-ui-skin-smallscreen .bmpui-ui-hugeplaybacktogglebutton .bmpui-image {
-	background-image: url('https://flfonseca.github.io/test/bmpui-ui-skin-smallscreen.bmpui-ui-hugeplaybacktogglebutton.bmpui-image.svg');
+	background-image: url('https://flfonseca.github.io/test/play.svg');
 	background-size: 4em
 }
 
