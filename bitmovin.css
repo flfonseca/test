@@ -2831,11 +2831,11 @@
     opacity: 1;
 }
 
+/*
 .bmpui-player-state-playing .bmpui-ui-controlbar {
     opacity: 0;
 }
 
-/*
 .bmpui-ui-titlebar {
   display: none;
 }
