@@ -2826,13 +2826,6 @@
 .bmpui-ui-controlbar {
     opacity: 0;
 }
-.bmpui-ui-uicontainer .bmpui-controls-shown .bmpui-ui-controlbar {
-    opacity: 1;
-}
-
-.bmpui-ui-uicontainer .bmpui-player-state-playing  .bmpui-ui-controlbar {
-    opacity: 1;
-}
 
 .bmpui-player-state-paused .bmpui-ui-controlbar {
     opacity: 1;
