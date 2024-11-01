@@ -2824,20 +2824,20 @@
 }
 
 .bmpui-ui-controlbar {
-    opacity: 0;
+    display: none;
 }
 
 .bmpui-ui-uicontainer.bmpui-controls-shown .bmpui-ui-controlbar {
-    opacity: 1;
+    display: block;
 }
 
 .bmpui-player-state-paused .bmpui-ui-controlbar {
-    opacity: 1;
+    display: block;
 }
-
+/* 
 .bmpui-player-state-playing .bmpui-ui-controlbar {
-    opacity: 0;
-}
+    display: none;
+} */
 /*
 .bmpui-ui-titlebar {
   display: none;
