@@ -2823,6 +2823,7 @@
     background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" style="enable-background:new 0 0 80 80" xml:space="preserve"><style> .st1 { fill: %23e50038 } </style><path d="M40 73.5c-18.5 0-33.5-15-33.5-33.5S21.5 6.5 40 6.5s33.5 15 33.5 33.5-15 33.5-33.5 33.5z" style="opacity:.2;fill:%23e50038" /><path class="st1" d="M40 5C20.7 5 5 20.7 5 40s15.7 35 35 35 35-15.7 35-35S59.3 5 40 5zm0 67C22.3 72 8 57.7 8 40S22.3 8 40 8s32 14.3 32 32-14.3 32-32 32z" id="Ellipse_3_copy_2" /><path class="st1" d="M54 40.3V40h-.1c-.2-.6-.8-1-1.4-1s-1.2.4-1.4 1H51c0 6.1-4.9 11-11 11s-11-4.9-11-11 4.9-11 11-11c.7 0 1.4.1 2 .2v3.3c0 .2.1.3.3.4.1 0 .2.1.3.1s.2 0 .3-.1l7.8-4.5c.2-.1.2-.2.2-.4s-.1-.3-.2-.4l-7.8-4.5c-.2-.1-.4-.1-.6 0-.2.1-.3.2-.3.4v2.7c-.7-.1-1.3-.2-2-.2-7.7 0-14 6.3-14 14s6.3 14 14 14c7.4 0 13.5-5.8 14-13.2v-.5z" id="Ellipse_3" /></svg>');
 }
 
+/*
 .bmpui-ui-controlbar {
     opacity: 0;
 }
@@ -2830,7 +2831,7 @@
 .bmpui-player-state-paused .bmpui-ui-controlbar {
     opacity: 1;
 }
-/* 
+
 .bmpui-player-state-playing .bmpui-ui-controlbar {
     opacity: 0;
 }
@@ -2846,8 +2847,8 @@
 .bmpui-player-state-playing .bmpui-ui-titlebar {
   display: none;
 }
+*/
 
-/*/
 .bmpui-ui-buffering-overlay .bmpui-ui-buffering-overlay-indicator {
 	animation: bmpui-fancy 2s ease-in infinite;
 	background: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' style='enable-background:new 0 0 32 32' xml:space='preserve'%3E%3Cstyle%3E.st1{fill-rule:evenodd;clip-rule:evenodd;fill:%23e50038}%3C/style%3E%3Cpath class='st1' d='M8 8h16v16H8z' id='Rectangle_3_copy_3' style='opacity:.302'/%3E%3Cpath class='st1' d='M23 7H9c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V9c0-1.1-.9-2-2-2zm0 16H9V9h14v14z' id='Rectangle_2_copy_13'/%3E%3C/svg%3E") no-repeat 50%;
